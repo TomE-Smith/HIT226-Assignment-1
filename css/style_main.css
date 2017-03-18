@@ -1,4 +1,8 @@
-@import url('/css/style_nav.css');
+@import "s/css/style_nav.css";
+
+* {
+  box-sizing: border-box;'
+}
 
 html {
   background-color:#070707;
@@ -6,15 +10,10 @@ html {
 
 main {
    width: 100%;
-   height:80%;
    padding: 5px;
    color: #fcf400;
    background-color: #070707;
  }
-
-html main {
-  height:100%
-}
 
  footer {
 position: fixed;
@@ -23,6 +22,12 @@ bottom: 0;
 color: #fcf400;
 background-color: #070707;
  }
+
+.section-rules {
+  background-color: #333;
+  margin-bottom: 10px;
+  padding:10px;
+}
 
  /* Add a black background color to the top navigation */
 .topnav {
@@ -59,12 +64,15 @@ background-color: #070707;
 }
 
 .list {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 0 25% 5% 0;
+  padding: 10px;
+  text-align: justify;
 }
 
 .text {
-  margin: 0px 10px 0px 35px;
+  margin-right: 25%;
+  padding: 10px;
+  text-align: justify;
 }
 
 .text > a {
