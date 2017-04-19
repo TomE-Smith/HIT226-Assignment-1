@@ -53,6 +53,20 @@ main {
   text-align: center;
 }
 
+.hidden {
+margin-top: 0;
+margin-bottom:0;
+padding-top: 20px;
+paddingbottom: 20px;
+}
+
+.hidden__container{
+  overflow:hidden;
+  transition-property: height;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+}
+
 .list {
   margin-bottom:1%;
   padding: 5px;
